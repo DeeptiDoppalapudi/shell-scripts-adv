@@ -1,6 +1,7 @@
 #!/bin/bash
 
 USERID=$(id -u)
+set -e
 
 if [$USERID -ne 0]
 then 
